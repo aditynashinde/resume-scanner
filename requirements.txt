@@ -1,0 +1,7 @@
+# requirements.txt for Smart Resume Screener
+pdfplumber
+python-docx
+nltk
+spacy
+scikit-learn
+pandas

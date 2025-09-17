@@ -1,0 +1,8 @@
+# Sample job description for testing
+# Paste or edit as needed
+Required Skills:
+- Python
+- Data Analysis
+- Machine Learning
+- Communication
+- Teamwork
