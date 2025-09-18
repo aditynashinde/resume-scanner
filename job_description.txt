@@ -1,8 +1,61 @@
-# Sample job description for testing
-# Paste or edit as needed
-Required Skills:
-- Python
-- Data Analysis
-- Machine Learning
-- Communication
-- Teamwork
+🌐 Sample Job Description – Cloud Engineer
+
+Job Title: Cloud Engineer
+Location: Remote / Hybrid
+Employment Type: Full-time
+
+About the Role
+
+We are looking for a skilled Cloud Engineer to design, implement, and maintain cloud infrastructure that powers scalable and secure business applications. The ideal candidate will have hands-on experience with AWS, Azure, or Google Cloud, strong automation skills, and a passion for optimizing cloud environments.
+
+Key Responsibilities
+
+Design, deploy, and manage scalable and secure cloud infrastructure.
+
+Automate infrastructure provisioning and management using Terraform, Ansible, or CloudFormation.
+
+Monitor and optimize cloud services for performance, cost, and security.
+
+Implement CI/CD pipelines for application deployment.
+
+Collaborate with developers, DevOps, and security teams to ensure cloud best practices.
+
+Troubleshoot issues related to cloud networking, storage, and compute services.
+
+Ensure compliance with organizational security standards and policies.
+
+Required Skills & Qualifications
+
+Bachelor’s degree in Computer Science, IT, or related field (or equivalent experience).
+
+3+ years of hands-on experience in cloud platforms (AWS, Azure, or GCP).
+
+Proficiency in Linux/Windows system administration.
+
+Strong understanding of networking concepts (VPC, DNS, load balancing, firewalls).
+
+Experience with containers & orchestration (Docker, Kubernetes, ECS, AKS, or GKE).
+
+Scripting knowledge (Python, Bash, or PowerShell).
+
+Familiarity with cloud security practices (IAM, encryption, monitoring).
+
+Preferred Skills
+
+Certifications such as AWS Certified Solutions Architect, Azure Administrator, or Google Cloud Engineer.
+
+Experience with serverless computing (AWS Lambda, Azure Functions).
+
+Hands-on experience with monitoring tools (CloudWatch, Prometheus, Grafana, Datadog).
+
+Knowledge of DevOps practices and Agile methodologies.
+
+What We Offer
+
+Competitive salary and benefits.
+
+Opportunity to work on cutting-edge cloud technologies.
+
+Professional development and certification sponsorship.
+
+Flexible work environment.

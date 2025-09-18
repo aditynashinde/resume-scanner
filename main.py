@@ -40,16 +40,36 @@ def main_menu():
             print("Invalid choice. Try again.")
 
 def upload_job_description():
-    print("\nPaste the job description below. End input with a blank line:")
-    lines = []
-    while True:
-        line = input()
-        if not line:
-            break
-        lines.append(line)
-    with open(JD_FILE, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-    print(f"Job description saved to {JD_FILE}.")
+    print("\nHow would you like to provide the job description?")
+    print("1. Read from a text file (recommended)")
+    print("2. Paste into the terminal")
+    choice = input("Select an option (1/2): ").strip()
+    if choice == '1':
+        file_path = input("Enter the path to your job description .txt file (or press Enter for 'job_description.txt'): ").strip()
+        if not file_path:
+            file_path = JD_FILE
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                jd_text = f.read()
+            with open(JD_FILE, 'w', encoding='utf-8') as f:
+                f.write(jd_text)
+            print(f"Job description loaded from {file_path} and saved to {JD_FILE}.")
+        except Exception as e:
+            print(f"Error reading file: {e}")
+    else:
+        print("\nPaste the job description below. End input with a blank line:")
+        lines = []
+        while True:
+            try:
+                line = input()
+            except EOFError:
+                break
+            if not line:
+                break
+            lines.append(line)
+        with open(JD_FILE, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(lines))
+        print(f"Job description saved to {JD_FILE}.")
 
 def process_resumes():
     print("\nProcessing resumes in 'resumes/' folder...")
